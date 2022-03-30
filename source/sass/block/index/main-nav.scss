@@ -1,0 +1,22 @@
+.main-nav {
+  position: relative;
+}
+
+.main-nav__toggle {
+  width: 21px;
+  height: 10px;
+  cursor: pointer;
+  background-color: $white;
+  border: none;
+}
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 21px;
+  height: 1px;
+  background-color: $red;
+  box-shadow: 0 5px 0 0 $red, 0 10px 0 0 $red;
+}

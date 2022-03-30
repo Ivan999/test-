@@ -1,0 +1,54 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 52px;
+  min-height: 77px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 15px;
+  width: 321px;
+}
+
+.header__project {
+  padding: 10px;
+}
+
+.header__live {
+  position: relative;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 35px;
+    width: 9px;
+    height: 9px;
+    background-color: $red;
+    border-radius: 50%;
+  }
+}
+
+.header__orders {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  background-color: $gray;
+  padding: 7px;
+  margin-right: 10px;
+}
+
+.header__tel {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
